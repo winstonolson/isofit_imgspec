@@ -39,7 +39,7 @@ echo "Instrument is $instrument"
 echo "Unzipping files..."
 for file in $input/*tar.gz; do
     tar xzvf $file --directory $input/
-#    rm -f $file
+    rm -f $file
 done
 
 # Get rdn, loc, and obs based on instrument type
