@@ -18,4 +18,4 @@ inputs:
 # remove below this line if no inputs
 # rename and set algorithm input names accordingly
   - name: l1_granule
-    download: true
+    type: file
